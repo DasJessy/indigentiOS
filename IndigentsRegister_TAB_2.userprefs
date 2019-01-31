@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{466F97A0-53D2-43B6-BA50-19461BF1E119}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="IndigentsRegister_TAB_2/MainTabController.cs" Line="51" Column="4" />
+      <File FileName="IndigentsRegister_TAB_2/IndigentApplicantsViewController.cs" Line="50" Column="4" />
+      <File FileName="IndigentsRegister_TAB_2/singatureViewController.cs" Line="110" Column="61" />
+      <File FileName="IndigentsRegister_TAB_2/HttpUtility.cs" Line="1" Column="1" />
+      <File FileName="IndigentsRegister_TAB_2/LoadingOverlay.cs" Line="7" Column="22" />
+      <File FileName="IndigentsRegister_TAB_2/logoutViewController.cs" Line="26" Column="44" />
+      <File FileName="IndigentsRegister_TAB_2/Info.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IndigentsRegister_TAB_2" expanded="True">
+            <Node name="IndigentsRegister_TAB_2" expanded="True">
+              <Node name="ComponentReferenceFolder" selected="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.IndigentsRegister__TAB__2 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1D19E75E-C60B-4BF8-8C37-23557369A379" />
+  <MultiItemStartupConfigurations />
+</Properties>

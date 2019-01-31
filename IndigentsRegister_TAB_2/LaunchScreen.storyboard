@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="3" animating="YES" fixedFrame="YES">
+                                <rect key="frame" x="52" y="358" width="310" height="20"/>
+                                <constraints>
+                                    <constraint id="40" firstAttribute="width" constant="310"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="40"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="40"/>
+                                    </mask>
+                                </variation>
+                            </activityIndicatorView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="38" firstItem="Ze5-6b-2t3" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" constant="358"/>
+                            <constraint id="39" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" constant="52"/>
+                            <constraint id="43" firstItem="3" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="338"/>
+                            <constraint id="44" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" constant="52"/>
+                            <constraint id="45" firstItem="3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="52"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="38"/>
+                                <exclude reference="39"/>
+                                <exclude reference="43"/>
+                                <exclude reference="44"/>
+                                <exclude reference="45"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="38"/>
+                                <include reference="39"/>
+                                <include reference="43"/>
+                                <include reference="44"/>
+                                <include reference="45"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Home-50.png" width="50" height="50"/>
+        <image name="Bar Chart-50.png" width="50" height="50"/>
+        <image name="Form-50.png" width="50" height="50"/>
+        <image name="Logout Rounded Left-50.png" width="50" height="50"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina55"/>
+    </simulatedMetricsContainer>
+</document>
